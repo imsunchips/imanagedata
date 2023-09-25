@@ -6,9 +6,9 @@ logo:
   mobile: "images/logo/logo-mobile.svg"
   mobile_height: "32px"
   mobile_width: "32px"
-  desktop: "images/logo/dataadmin-cover-logo.png"
-  #desktop_height: "32px"
-  #desktop_width: "120px"
+  desktop: "images/logo/default-monochrome-black.svg"
+  desktop_height: "32px"
+  desktop_width: "120px"
 
 home: 
   limit_services: 6
