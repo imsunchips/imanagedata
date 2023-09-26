@@ -4,4 +4,4 @@ title: "Data Management"
 weight: 1
 ---
 
-We will help you manage your data, by helping at every stage strategizing, creating, and implementing effective processes to not only organize the data but also how to keep it organized long term.
+We will help you manage your data, by helping at every stage from strategizing, creating, to implementing effective processes to not only organize the data but also how to keep it organized long term.

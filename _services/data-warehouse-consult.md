@@ -4,4 +4,4 @@ title: "Data Warehouse"
 weight: 1
 ---
 
-We will help you research, strategize, educate, and implement data warehouse model best suited for your needs. Our no TECH DEBT approach, ensures that your stakeholders are trained and have all the knowledge to maintain and make ongoing changes to data warehouse, and we will always be right there right with you when you need us. 
+We will help you research, strategize, educate, and implement data warehouse model best suited for your needs. Our no TECH DEBT approach, ensures that your stakeholders are trained and have all the knowledge to maintain and make ongoing changes to the data warehouse, and we will always be right there right with you when you need us. 
