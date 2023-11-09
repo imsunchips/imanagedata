@@ -17,16 +17,16 @@
   }
 }
 .strip-primary-gradient {
-  background-image: linear-gradient(to right, $primary, $secondary);
+  background-image: linear-gradient(to right, $sa_bg_blue, $sa_icon_yellow);
 }
 .strip-primary-gradient-top-bottom {
-  background-image: linear-gradient(to bottom, $primary, $secondary);
+  background-image: linear-gradient(to bottom, $sa_bg_blue, $sa_icon_yellow);
 }
 .strip-primary {
-  background-color: $primary;
+  background-color: $sa_bg_blue;
 }
 .strip-secondary {
-  background-color: $secondary;
+  background-color: $sa_icon_yellow;
 }
 
 .strip-diagonal-right {
