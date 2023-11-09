@@ -2,7 +2,7 @@ baseurl: '/'
 permalink: pretty
 title: 'iManageData'
 
-#logo:
+logo:
   #mobile: "images/logo/logo-mobile.svg"
   #mobile_height: "32px"
   #mobile_width: "32px"
