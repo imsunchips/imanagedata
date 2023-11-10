@@ -1,8 +1,8 @@
 baseurl: '/'
 permalink: pretty
-title: 'iManageData'
+#title: 'iManageData'
 
-logo:
+#logo:
   #mobile: "images/logo/logo-mobile.svg"
   #mobile_height: "32px"
   #mobile_width: "32px"
@@ -11,7 +11,7 @@ logo:
   #desktop_width: "120px"
 
 home: 
-  limit_services: 6
+  limit_services: 3
 
 collections:
   services:
