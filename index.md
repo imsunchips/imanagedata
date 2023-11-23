@@ -9,9 +9,6 @@ intro_image_hide_on_mobile: true
 show_call_box: false
 ---
 
-# Great care, Every data deserves !
+# We help convert Poor Data into Rich Data !
 
-Are you good at what you do ? We let you focus on your strengths, we will take care of your data and help you get better at what you do. It's simple, you make money, we will manage your data to help you make more money.
-
-At iManageData, our mission is to provide you with actionable and insightful data so you can make great decisions to move your ideas forward.
-
+We are living in The Data Age, where Data is everything and everywhere. Everyone has data or generates data. Those who can harness and make their data <u>rich</u>, <u>easily available</u>, <u>actionable</u> and <u>insightful</u> for their consumers will emerge as winners. At iManageData, our mission is to help you achieve high standards of data, so you can be the WINNER.
