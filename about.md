@@ -1,11 +1,9 @@
 ---
 title: About
 layout: page
-description: About
+description: Why Us?
 bodyClass: page-about
 ---
-
-**Why Us:**
 
 **Expert Team:** Our skilled professionals bring years of experience to the table, ensuring you get top-notch solutions.
 
