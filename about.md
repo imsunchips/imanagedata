@@ -1,7 +1,7 @@
 ---
-title: About
+title: Why Us?
 layout: page
-description: Why Us?
+description: 
 bodyClass: page-about
 ---
 
