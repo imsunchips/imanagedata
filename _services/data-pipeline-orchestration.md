@@ -3,5 +3,5 @@ title: "Data Pipeline Orchestration"
 weight: 1
 ---
 
-- Implement ETL (Extract, Transform, Load) processes to clean, aggregate, and reshape data.
-- Use distributed computing frameworks like Apache Spark for large-scale data processing.
+- Use tools like Data Factory, Azure Synapse or Fabric to schedule and monitor data pipeline executions.
+- Ensure the reliability and fault tolerance of data pipelines.
