@@ -15,7 +15,7 @@ main:
   #  url: "/team/"
    # weight: 3
   - name: "LinkedIn"
-    url: "linkedin.com/company/imanagedata"
+    url: "https://www.linkedin.com/company/imanagedata"
     weight: 5
   - name: "Contact"
     url: "/contact/"
