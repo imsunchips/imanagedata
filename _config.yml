@@ -1,6 +1,9 @@
 baseurl: '/'
 permalink: pretty
 #title: 'iManageData'
+# Configurations
+
+remote_theme:     sighingnow/jekyll-gitbook
 
 #logo:
   #mobile: "images/logo/logo-mobile.svg"
