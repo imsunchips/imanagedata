@@ -20,6 +20,9 @@ main:
   - name: "Contact"
     url: "/contact/"
     weight: 6
+  - name: "Surveys"
+    url: "/surveys/"
+    weight: 7
 
 footer:
   - name: "Home"
