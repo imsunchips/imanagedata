@@ -17,12 +17,15 @@ main:
   - name: "LinkedIn"
     url: "https://www.linkedin.com/company/imanagedata"
     weight: 5
+  - name: "Solutions"
+    url: "https://imsunchips.github.io/imanagedocs/"
+    weight: 6
   - name: "Contact"
     url: "/contact/"
-    weight: 6
-  - name: "Surveys"
-    url: "/surveys/"
     weight: 7
+  #- name: "Surveys"
+   # url: "/surveys/"
+    #weight: 7
 
 footer:
   - name: "Home"
