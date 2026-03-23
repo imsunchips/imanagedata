@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iManageData | Dealership Data Intelligence</title>
+    <meta
+      name="description"
+      content="iManageData is building a dealership intelligence platform to free your data and unlock its full potential."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <header class="topbar">
+      <div class="topbar-inner container">
+        <a class="brand" href="#home" aria-label="iManageData home">iManageData</a>
+        <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav" id="site-nav">
+          <a href="#demo" class="nav-cta">Book a demo</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+
+      <section class="hero container reveal">
+        <p class="eyebrow">Built for GMs and dealership operators</p>
+        <h1>The intelligence platform that gives dealerships <em>super powers.</em></h1>
+        <p class="hero-copy">
+          We are building a dealership intelligence platform that will elevate your team's performance and unlock the full value of your data.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#demo">Request a demo</a>
+        </div>
+      </section>
+
+      <section id="demo" class="section container reveal">
+        <div class="demo-wrap">
+          <div class="demo-intro">
+            <p class="eyebrow">Get in touch</p>
+            <h2>Interested in a private demo?</h2>
+            <p>Share your details and we will reach out to schedule a tailored demo conversation.</p>
+          </div>
+          <form class="demo-form" id="demo-form" novalidate>
+            <label>
+              Full name
+              <input type="text" name="name" required placeholder="Alex Morgan" />
+            </label>
+            <label>
+              Work email
+              <input type="email" name="email" required placeholder="alex@dealership.com" />
+            </label>
+            <label>
+              Company
+              <input type="text" name="company" required placeholder="North Ridge Auto Group" />
+            </label>
+            <label>
+              What are you exploring?
+              <textarea name="message" rows="4" placeholder="Share your goals and timeline..."></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Request demo</button>
+            <p class="form-feedback" id="form-feedback" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner container">
+        <p class="footer-brand">iManageData</p>
+        <p>Building dealership intelligence for modern teams</p>
+        <a href="#home">Back to top &uarr;</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
