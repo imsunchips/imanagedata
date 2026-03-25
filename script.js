@@ -50,7 +50,7 @@ if (typewriterEl) {
   typewriterEl.appendChild(cursor);
 
   let i = 0;
-  const speed = 38;
+  const speed = 80;
 
   function type() {
     if (i < text.length) {
