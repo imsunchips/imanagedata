@@ -275,44 +275,7 @@ main { padding-bottom: 7rem; }
 
 .demo-intro p { color: var(--muted); font-size: 0.96rem; line-height: 1.7; }
 
-.demo-form { display: grid; gap: 1rem; }
-
-.demo-form label {
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--text);
-}
-
-.demo-form input,
-.demo-form textarea {
-  font-family: inherit;
-  font-size: 0.94rem;
-  color: var(--text);
-  background: var(--bg);
-  border: 1px solid rgba(27, 23, 18, 0.2);
-  border-radius: 6px;
-  padding: 0.72rem 0.88rem;
-  transition: border-color var(--ease), box-shadow var(--ease);
-}
-
-.demo-form input:focus,
-.demo-form textarea:focus {
-  outline: none;
-  border-color: var(--blue);
-  box-shadow: 0 0 0 3px rgba(26, 78, 184, 0.12);
-}
-
-.demo-form textarea { resize: vertical; }
-
-.form-feedback {
-  font-size: 0.82rem;
-  font-weight: 600;
-  color: var(--blue);
-  min-height: 1rem;
-}
+.demo-form-embed { width: 100%; }
 
 /* ── Footer ────────────────────── */
 .footer { border-top: 1px solid var(--border); margin-top: 6rem; }
