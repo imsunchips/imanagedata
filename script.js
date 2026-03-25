@@ -39,12 +39,10 @@ if ('IntersectionObserver' in window) {
 }
 
 // Typewriter
-const typewriterEl = document.querySelector('.hero-animate-1');
+const typewriterEl = document.querySelector('.typewriter-target');
 if (typewriterEl) {
   const text = typewriterEl.textContent.trim();
   typewriterEl.textContent = '';
-  typewriterEl.style.opacity = '1';
-  typewriterEl.style.animation = 'none';
 
   const cursor = document.createElement('span');
   cursor.className = 'typewriter-cursor';
@@ -69,7 +67,6 @@ if (typewriterEl) {
 
 // Modal
 const modal = document.querySelector('#demo-modal');
-const openBtn = document.querySelector('#open-demo');
 const closeBtn = document.querySelector('#close-demo');
 
 function openModal() {
@@ -82,8 +79,10 @@ function closeModal() {
   document.body.style.overflow = '';
 }
 
-if (modal && openBtn) {
-  openBtn.addEventListener('click', openModal);
+if (modal) {
+  document.querySelectorAll('#open-demo, .demo-trigger').forEach((btn) => {
+    btn.addEventListener('click', openModal);
+  });
   closeBtn.addEventListener('click', closeModal);
   modal.addEventListener('click', (e) => {
     if (e.target === modal) closeModal();
