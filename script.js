@@ -42,6 +42,8 @@ if ('IntersectionObserver' in window) {
 const typewriterEl = document.querySelector('.typewriter-target');
 if (typewriterEl) {
   const text = typewriterEl.textContent.trim();
+  const h1 = typewriterEl.closest('h1');
+  if (h1) h1.style.minHeight = h1.offsetHeight + 'px';
   typewriterEl.textContent = '';
 
   const cursor = document.createElement('span');
