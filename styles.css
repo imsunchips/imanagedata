@@ -297,7 +297,7 @@ main { padding-bottom: 2rem; }
 .modal-close:hover { color: var(--text); }
 
 /* ── Footer ────────────────────── */
-.footer { margin-top: 0; }
+.footer { border-top: 1px solid var(--border); margin-top: 0; }
 
 .footer-inner {
   display: flex;
