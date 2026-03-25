@@ -7,7 +7,7 @@ if (menuToggle && nav) {
     menuToggle.setAttribute('aria-expanded', String(isOpen));
   });
 
-  nav.querySelectorAll('a').forEach((link) => {
+  nav.querySelectorAll('a, button').forEach((link) => {
     link.addEventListener('click', () => {
       nav.classList.remove('open');
       menuToggle.setAttribute('aria-expanded', 'false');
@@ -38,23 +38,28 @@ if ('IntersectionObserver' in window) {
   });
 }
 
-const form = document.querySelector('#demo-form');
-const feedback = document.querySelector('#form-feedback');
+// Modal
+const modal = document.querySelector('#demo-modal');
+const openBtn = document.querySelector('#open-demo');
+const closeBtn = document.querySelector('#close-demo');
 
-if (form && feedback) {
-  form.addEventListener('submit', (event) => {
-    event.preventDefault();
-    const formData = new FormData(form);
-    const name = String(formData.get('name') || '').trim();
-    const email = String(formData.get('email') || '').trim();
-    const company = String(formData.get('company') || '').trim();
+function openModal() {
+  modal.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
 
-    if (!name || !email || !company) {
-      feedback.textContent = 'Please complete name, work email, and company.';
-      return;
-    }
+function closeModal() {
+  modal.classList.remove('open');
+  document.body.style.overflow = '';
+}
 
-    feedback.textContent = 'Thanks. Your request is ready to route to your team inbox.';
-    form.reset();
+if (modal && openBtn) {
+  openBtn.addEventListener('click', openModal);
+  closeBtn.addEventListener('click', closeModal);
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) closeModal();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeModal();
   });
 }
