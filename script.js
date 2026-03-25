@@ -38,6 +38,35 @@ if ('IntersectionObserver' in window) {
   });
 }
 
+// Typewriter
+const typewriterEl = document.querySelector('.hero-animate-1');
+if (typewriterEl) {
+  const text = typewriterEl.textContent.trim();
+  typewriterEl.textContent = '';
+  typewriterEl.style.opacity = '1';
+  typewriterEl.style.animation = 'none';
+
+  const cursor = document.createElement('span');
+  cursor.className = 'typewriter-cursor';
+  cursor.textContent = '|';
+  typewriterEl.appendChild(cursor);
+
+  let i = 0;
+  const speed = 38;
+
+  function type() {
+    if (i < text.length) {
+      cursor.insertAdjacentText('beforebegin', text[i]);
+      i++;
+      setTimeout(type, speed);
+    } else {
+      cursor.classList.add('typewriter-done');
+    }
+  }
+
+  setTimeout(type, 200);
+}
+
 // Modal
 const modal = document.querySelector('#demo-modal');
 const openBtn = document.querySelector('#open-demo');
